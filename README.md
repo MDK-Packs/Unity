@@ -11,7 +11,7 @@ Working with this repository requires the following applications and packs to be
 1. Open a bash compatible shell
 2. Clone the repository: `git clone https://github.com/MDK-Packs/Unity.git`
 3. Run `./get_upstream.sh`
-4. Run `./add_merge.sh` to copy files from `contributions/add` to a `./local` directory
+4. Run `./add_merge.sh` to copy files from `./contributions` to a `./local` directory
 5. You can now add the `./local/Arm-Packs.Unity.pdsc` to the list of local repositories in Pack Installer. This enables direct access to its content without the need to re-build and re-install the pack after modifications.
 
 ### Creating a CMSIS-Pack
