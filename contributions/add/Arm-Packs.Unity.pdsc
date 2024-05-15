@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package schemaVersion="1.6" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+<package schemaVersion="1.7.36" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Open-CMSIS-Pack/Open-CMSIS-Pack-Spec/v1.7.36/schema/PACK.xsd">
   <vendor>Arm-Packs</vendor>
   <name>Unity</name>
   <description>Unit Testing for C (especially Embedded Software)</description>
   <!-- web download link -->
   <url>https://github.com/MDK-Packs/Pack/raw/master/Unity/</url>
   <license>LICENSE.txt</license>
+  <licenseSets>
+    <licenseSet id="all" default="true" gating="true">
+      <license name="LICENSE.txt" title="MIT License" spdx="MIT"/>
+    </licenseSet>
+  </licenseSets>
   <releases>
     <release version="1.0.0" date="2019-12-05">
       Initial release based on Unity v2.5.0
